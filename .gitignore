@@ -1,0 +1,10 @@
+# OSX
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+logs/
+dist/
+.env
+package-lock.json

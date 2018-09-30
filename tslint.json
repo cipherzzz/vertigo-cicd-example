@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "tslint-config-standard",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": "node_modules/tslint-microsoft-contrib",
+  "rules": {
+    "no-console": true,
+    "mocha-avoid-only": true
+  }
+}
