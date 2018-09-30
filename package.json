@@ -4,6 +4,7 @@
   "description": "A Typescript - Google Application Engine - Continuous Integration Example ",
   "main": "/dist/app.js",
   "scripts": {
+    "deploy": "npm run build && gcloud app deploy --project mark-dev-project",
     "start": "node ./dist/app.js",
     "lint": "tslint --project tsconfig.json -t codeFrame",
     "build": "tsc",

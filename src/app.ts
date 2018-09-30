@@ -6,9 +6,9 @@ const logger = createLogger('app')
 
 export function start() {
     const app = express()
-
-    app.listen(3000, () => {
-        logger.info('Server running on port 3000')
+    const port = process.env.PORT || 8080
+    app.listen(port, () => {
+        logger.info('Server running on port ', port)
     })
 
     app.get('/', (req, res, next) => {
