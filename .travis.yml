@@ -17,3 +17,9 @@ script:
   - npm run lint
   - npm run build
   - npm test
+
+deploy:
+  provider: gae
+  keyfile: "api_credentials.json"
+  project: "mark-dev-project" 
+  on: "master" 
