@@ -3,5 +3,5 @@ export type Payload = {
 }
 
 export function getTestPayload(): Payload {
-    return { message: 'errbody in the club gettin tipsy' }
+    return { message: 'nobody in the club gettin tipsy' }
 }
