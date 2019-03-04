@@ -14,7 +14,7 @@ node_js:
 
 notifications:
   email:
-    - mark.mathis@vertigomusic.com
+    - sunnykturo@gmail.com
 
 before_install:
   - docker build -t cicd-test .    
