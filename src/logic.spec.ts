@@ -4,7 +4,7 @@ import { getTestPayload } from './logic'
 
 describe('The logic ', () => {
     it('can retrieve a JSON payload', async () => {
-        const result = { message: 'nobody in the club gettin tipsy' }
+        const result = { message: 'changed the message for learning purposes' }
         const payload = getTestPayload()
         expect(payload).to.deep.equal(result)
     })
